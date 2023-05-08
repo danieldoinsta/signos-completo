@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-2560x1440-4523.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 98%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+    color: rgb(255, 254, 242);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+
+input {
+
+    float: left;
+    border: solid 3px blueviolet;
+    background-color: aliceblue;
+    border-radius: 8px;
+    height: 35px;
+    width: 32%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 34%;
+    font-size: 1REM;
+     box-shadow: -1px 1px 10px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: calc(15% - 10px);
+    height: 40px;
+    font-size: 20px;
+    margin: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: -1px 1px 10px black;
+    margin-left: 43%;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: none;
+}
+
+.idk2 #frase {
+    max-width: 800px;
+}
+
+.idk2 {
+    background: blueviolet;
+    border: 3px solid rgb(255, 255, 255);
+    width: 90%;
+    /*background: blueviolet;*/
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    /* border:3px solid rgb(255, 255, 255) ;*/
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+
+}
+
+.idk2 img {
+    width: 240px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 255, 255);
+}
